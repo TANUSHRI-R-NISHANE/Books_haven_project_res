@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/42b0465e41.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Book Haven</title>
+    
+</head>
+ <style>
+  
+.about{
+    padding: 5px;
+    background-color:antiquewhite;
+   
+}
+
+.about-tag-1 h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 75px;
+    
+
+}
+.about-tag-1 p{
+    display: flex;
+    text-align: center;
+    
+    
+}
+.about-image img{
+    width: 350px;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-btn{
+  background-color: rgb(8, 127, 127);
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 130px;
+  margin-top: 30px;
+}
+.about-btn:hover{
+  background-color: rgb(46, 193, 193);
+}
+
+ /* Services */
+.services{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+     background-color: rgba(211, 211, 211, 0.477);
+    
+}
+ .services-box{
+    width:50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.services-card{
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 8px rgb(34, 131, 131);
+    padding: 10px;
+    margin-top: 20px;
+}
+.services-card i{
+    color: rgb(26, 122, 122);
+    font-size: 30px;
+    /* margin-bottom:15px ; */
+}
+.services-card h1{
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+} 
+.services-card:hover{
+  transform: scale(1.2);
+  
+}
+  
+@media (min-width:768px) {
+   
+
+.about{
+    padding: 5px;
+    width: 100%;
+    /* height: 100vh; */
+    
+}
+.about-tag-1 h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:80px;
+
+}
+.about-tag-1 p{
+    display: flex;
+    text-align: center;
+    
+}
+.about-image{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-image img{
+    width: 450px;
+    /* border: 1px solid black; */
+}
+
+.about-btn{
+  background-color: rgb(8, 127, 127);
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 280px;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+}
+.services{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-box{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services-card{
+    text-align: center;
+    width: 310px;
+    height:30vh;
+    box-shadow: 0 0 8px rgb(34, 131, 131);
+    padding: 10px;
+     margin-bottom: 30px;
+}
+.services-card:hover{
+  transform: scale(1.2);
+  
+}
+.services-card i{
+    color: rgb(26, 122, 122);
+    font-size: 30px;
+    margin-bottom:15px ;
+}
+.services-card h1{
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+} 
+
+  
+}
+
+@media (min-width:1024px) {
+
+  .about{
+    padding: 5px;
+    width: 100%;
+    /* height: 100vh; */
+    
+    
+}
+.about-tag-1 h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 75px;
+    
+
+}
+.about-tag-1 p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.about-image{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-image img{
+    width: 450px;
+    /* border: 1px solid black; */
+}
+
+.about-btn{
+  background-color: rgb(8, 127, 127);
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 44%;
+  text-align: center;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+.services{
+    width: 100%;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: lightgray;
+    
+}
+.services-box{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+   
+}
+.services-card{
+    text-align: center;
+    width: 310px;
+    height:40vh;
+    box-shadow: 0 0 8px rgb(34, 131, 131);
+    padding: 10px;
+     margin-bottom: 30px;
+}
+.services-card:hover{
+  transform: scale(1.2);
+  
+}
+.services-card i{
+    color: rgb(26, 122, 122);
+    font-size: 30px;
+    margin-bottom:15px ;
+}
+.services-card h1{
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+} 
+
+  
+  
+}
+
+ </style>
+<body>
+
+    <!-- Navbar -->
+ 
+<nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+    <div class="container">
+      <a class="navbar-brand" style="font-size:25px;font-family:'Times New Roman', Times, serif;font-weight: 700;"  href="index.html">📚  Book Haven</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end " id="navmenu">
+        <ul class="navbar-nav ms-auto">
+           <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="features.html">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="arrival.html">Arrival</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="review.html">Review</a>
+      </li>
+  
+       <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Help.html">Help!</a>
+      </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="about-tag-1">
+      <h2>About Us</h2>
+      <p>At Book Haven, we curate the best selection of timeless classics and contemporary hits to inspire readers worldwide.</p>
+    </div>
+
+
+
+ 
+                      <div class="about-image">
+                <img src="images/about book2.png" alt="">
+            </div>
+
+                   <button class="about-btn">Learn More</button>
+                      
+            </div>
+          </div>
+
+          <div class="services">
+            <div class="services-box">
+                <div class="services-card">
+                    <i class="fa-regular fa-address-card"></i>
+                    <h1>Fast Delivery</h1>
+                    <p>We are a modern online bookstore and library service that brings the best of both worlds
+                       to your fingertips. Whether you want to buy a book, borrow like a library, or get it 
+                       delivered fast — we’ve got you covered.
+
+
+                      </p>
+
+                </div>
+                 <div class="services-card">
+                   <i class="fa-solid fa-headphones"></i>
+                    <h1>24 x 7 services </h1>
+                    <p>bookstore website services that can be offered in collaboration with or within a library,
+                       ideal for a hybrid model where a bookstore operates alongside or inside a library—whether physically or digitally:
+                       </p>
+
+                </div>
+             
+              
+                 <div class="services-card">
+                   <i class="fa-solid fa-money-bill"></i>
+                    <h1>Best Deal</h1>
+                    <p> Best Deals in the Library section — where book lovers save more! As a valued
+                       library member, you get access to special bookstore discounts, bundles, 
+                       and perks only available through your library portal.
+
+
+                       </p>
+
+                </div>
+                 <div class="services-card">
+                    <i class="fa-solid fa-lock"></i>
+                    <h1>Secure Payment</h1>
+                    <p>At [Your Bookstore Name], we make it easy and secure for library members to purchase books, 
+                      whether online or during a visit to the library.
+                       Every transaction is protected with industry-standard security protocols to ensure your peace of mind.
+                       </p>
+                   </div>
+                 </div>
+          </div>
+
+</section>
+ 
+
+</body>
+</html>

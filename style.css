@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* Navbar */
+ body{
+    background-color: white;
+    color: rgb(55, 55, 55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .nav-link{
+    color:white !important;
+    font-weight: 500;
+  }
+   .nav-link:hover{
+       color: aqua !important;
+  }
+  .navbar-brand:hover{
+    color: rgb(0, 187, 187);
+  }
+  
+  nav{
+    background-color:  rgb(11, 127, 127) !important;
+  }
+  .container{
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  /* Home */
+.main{
+    text-align: center;
+    background: url(images/home5.jpg)center/cover no-repeat !important;
+    width:100%;
+    background-size: cover;
+    height: 100vh;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    padding:10px;
+}
+
+
+
+@media (min-width:1024px) {
+  .home-box h1{
+    font-size: 50px;
+  }
+
+  .home-box p{
+    font-size: 20px;
+  }
+  
+}
+
+    

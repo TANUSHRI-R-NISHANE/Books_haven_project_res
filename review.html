@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/42b0465e41.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Book Haven</title>
+    
+</head>
+ <style>
+  
+  
+  /* reviews */
+
+.reviews{
+    width: 100%;
+    height: 100vh;
+    background: rgb(207, 213, 221);
+}
+.reviews-tag{
+    text-align: center;
+    padding: 30px;
+    
+}
+.reviews-tag h2{
+  margin-top: 50px;
+}
+.reviews-box{
+   margin-top: 30px;
+   width: 100%;
+    
+}
+
+.reviews-card-top{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+@media (min-width:768px) {
+.reviews{
+    width: 100%;
+    height: 100vh;
+    background: rgb(207, 213, 221);
+}
+.reviews-tag{
+    text-align: center;
+    padding: 30px;
+    
+}
+.reviews-box{
+   
+   width: 100%;
+    
+}
+.reviews-card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-card-top{
+    width: 90%;
+    height: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+}
+@media (min-width:1024px) {
+  
+  .reviews{
+    width: 100%;
+    height: 100vh;
+    background: rgb(207, 213, 221);
+}
+.reviews-tag{
+    text-align: center;
+    padding: 30px;
+    
+}
+.reviews-box{
+   
+   width: 100%;
+    
+}
+.reviews-card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-card-top{
+    width: 30%;
+    height: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+}
+
+
+ </style>
+<body>
+
+    <!-- Navbar -->
+ 
+<nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+    <div class="container">
+      <a class="navbar-brand" style="font-size:25px;font-family:'Times New Roman', Times, serif;font-weight: 700;"  href="index.html">📚  Book Haven</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end " id="navmenu">
+        <ul class="navbar-nav ms-auto">
+           <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="features.html">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="arrival.html">Arrival</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Review</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Help.html">Help!</a>
+      </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <!-- Reviews -->
+  <section id="reviews" class="reviews">
+    <div class="reviews-tag">
+      <h2>Customer Reviews</h2>
+      <div class="reviews-box">
+        <div class="reviews-card">
+          <div class="reviews-card-top">
+            <p>"Amazing collection and fast shipping!"</p>
+            <p style="font-weight: 600;">– Jane Doe</p>
+          </div>
+        </div>
+        <div class="reviews-card">
+          <div class="reviews-card-top">
+            <p>"Lovely website to find indie authors."</p>
+            <p style="font-weight: 600;">– John Smith</p>
+          </div>
+        </div>
+        <div class="reviews-card">
+          <div class="reviews-card-top">
+            <p>"Secure payments and excellent support."</p>
+            <p style="font-weight: 600;">– Alice Lee</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
